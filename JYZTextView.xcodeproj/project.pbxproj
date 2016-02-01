@@ -15,6 +15,7 @@
 		9AA672E21C5EFAB200E536D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA672E01C5EFAB200E536D4 /* LaunchScreen.storyboard */; };
 		9AA672ED1C5EFAB200E536D4 /* JYZTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA672EC1C5EFAB200E536D4 /* JYZTextViewTests.m */; };
 		9AA672F81C5EFAB200E536D4 /* JYZTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA672F71C5EFAB200E536D4 /* JYZTextViewUITests.m */; };
+		9AA673081C5EFAEA00E536D4 /* JYZTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA673071C5EFAEA00E536D4 /* JYZTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9AA672F31C5EFAB200E536D4 /* JYZTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYZTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA672F71C5EFAB200E536D4 /* JYZTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYZTextViewUITests.m; sourceTree = "<group>"; };
 		9AA672F91C5EFAB200E536D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA673061C5EFAEA00E536D4 /* JYZTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYZTextView.h; sourceTree = "<group>"; };
+		9AA673071C5EFAEA00E536D4 /* JYZTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYZTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		9AA672D11C5EFAB200E536D4 /* JYZTextView */ = {
 			isa = PBXGroup;
 			children = (
+				9AA673051C5EFAD400E536D4 /* TextField */,
 				9AA672D51C5EFAB200E536D4 /* AppDelegate.h */,
 				9AA672D61C5EFAB200E536D4 /* AppDelegate.m */,
 				9AA672D81C5EFAB200E536D4 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				9AA672F91C5EFAB200E536D4 /* Info.plist */,
 			);
 			path = JYZTextViewUITests;
+			sourceTree = "<group>";
+		};
+		9AA673051C5EFAD400E536D4 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				9AA673061C5EFAEA00E536D4 /* JYZTextView.h */,
+				9AA673071C5EFAEA00E536D4 /* JYZTextView.m */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AA672DA1C5EFAB200E536D4 /* ViewController.m in Sources */,
+				9AA673081C5EFAEA00E536D4 /* JYZTextView.m in Sources */,
 				9AA672D71C5EFAB200E536D4 /* AppDelegate.m in Sources */,
 				9AA672D41C5EFAB200E536D4 /* main.m in Sources */,
 			);
